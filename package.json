@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel",
     "build": "NODE_ENV=production parcel build",
-    "postinstall": "rimraf .git"
+    "REMOVE_GIT": "rimraf .git"
   },
   "keywords": [
     "parcel",
