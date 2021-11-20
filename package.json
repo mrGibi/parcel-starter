@@ -1,0 +1,21 @@
+{
+  "name": "@gibi/parcel-starter",
+  "version": "0.1.0",
+  "description": "Simple Parcel v2 starter",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "NODE_ENV=production parcel build",
+    "postinstall": "rimraf .git"
+  },
+  "keywords": [
+    "parcel",
+    "starter"
+  ],
+  "author": "mrGibi <gibi@gibi.gg>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.1",
+    "rimraf": "^3.0.2"
+  }
+}
