@@ -15,7 +15,7 @@
   "author": "mrGibi <gibi@gibi.gg>",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.0.1",
+    "parcel": "^2.3.2",
     "rimraf": "^3.0.2"
   }
 }
